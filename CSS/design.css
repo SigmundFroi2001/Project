@@ -1,0 +1,169 @@
+body{
+    font-family: 'quicksand';
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.center{
+    padding-top: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+h1,h2{
+    font-family: 'Oswald';
+}
+
+.brand {
+    max-width: 150px;
+    max-height: 150px;
+    position: absolute;
+    padding: 0;    
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.navContainer{
+    margin: auto;
+    background: #FFCE00;
+    min-height: 100px;
+}
+
+nav{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:teal;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 45px;
+    padding: 0;
+    color: black;
+}
+
+li{
+    float: left;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+}
+
+button{
+    background-color: #D21034;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    position: relative;
+    z-index: 500;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    width: 101%;
+    transition: 0.8s all ease;
+    margin-bottom: 25px;
+}
+
+button:hover{
+    background-color: #990d26;
+}
+
+.submit{
+    background-color: #D21034;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    position: relative;
+    z-index: 500;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    width: 101%;
+    transition: 0.8s all ease;
+    margin-bottom: 25px;
+}
+
+.submit:hover{
+    background-color: #990d26;  
+}
+
+.information{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+table{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://perfectdailygrind.com/wp-content/uploads/2018/11/IMG_9758e-scaled.jpg");
+  
+    /* Set a specific height */
+    height: 70%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .x{
+    color: black;
+    background-color: #FFCE00;
+    width: 100%;
+    margin:auto;
+    margin-top: 25px;
+    max-width: 575px;
+    max-height: 575px;
+    border-radius: 15%;
+    position:relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow:0 20px 15px 0 rgba(0,0,0,.24),0 17px 100px 0 rgba(0,0,0,.19);
+  }
+
+  .y{
+      color: black;
+  }
